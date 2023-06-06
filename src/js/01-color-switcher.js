@@ -7,6 +7,7 @@ const dataStopRef = document.querySelector('[data-stop]');
 const bodyRef = document.querySelector('body');
 
 let timerId = null;
+let btnValuDif;
 
 dataStartRef.addEventListener('click', onStart);
 dataStopRef.addEventListener('click', onStop);
